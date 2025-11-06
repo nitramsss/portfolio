@@ -39,8 +39,8 @@ Install and run locally
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/nitramsss/Portfolio.git
-cd Portfolio
+git clone https://github.com/nitramsss/portfolio.git
+cd portfolio
 ```
 
 2. Install dependencies:
