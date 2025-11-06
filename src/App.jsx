@@ -4,7 +4,6 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
-import Addition from "./sections/Addition";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
@@ -12,7 +11,7 @@ const App = () => {
   return (
     <div className="container mx-auto max-w-full" id="home">
       <Navbar />
-      <Hero />
+      <Hero />     
       <About />
       <Skills />
       <Projects />

@@ -31,15 +31,12 @@ export const myExperience = [
         title: "CommIT Society",
         description: "Backend Developer",
         date: "OCT 2025 - PRESENT",
-        img: "assets/logos/commits.png"
-
     },
     {
         id: 2,
         title: "Google Developer Groups on Campus - PUP",
         description: "Cadet Member",
         date: "OCT 2024 - JULY 2025",
-        img: "assets/logos/gdg.webp"
     },
 ]
 
