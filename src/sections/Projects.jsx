@@ -76,11 +76,10 @@ const Projects = () => {
                 )}
               </div>
 
-              <div className="mt-4 gap-3 flex justify-center items-center sm:justify-end">
+              <div className="mt-4 gap-3 flex justify-center items-center sm:justify-end rounded-xl">
                 <Button
                   onClick={() => window.open(selectedProject?.github, "_blank")}
-                  className="backdrop-blur-md cursor-pointer inline-flex items-center gap-2 rounded-md bg-gray-700 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-600 data-open:bg-gray-700"
-                >
+              className="cursor-pointer bg-indigo-500 hover:bg-indigo-400 shadow-lg hover:shadow-indigo-500/50 px-5 py-2 text-md font-bold rounded-2xl">
                   <a>My Repository</a>
                 </Button>
               </div>

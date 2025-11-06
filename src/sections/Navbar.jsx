@@ -23,9 +23,9 @@ const Navbar = () => {
   const [isClick, setIsClick] = React.useState(false);
   console.log(isClick);
   return (
-    <div className="px-5 py-2 fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40 sm:px-10">
+    <div className="px-5 py-2 fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40 sm:px-10" id="navbar">
       <div className="flex justify-between items-center mx-auto max-w-7xl">
-        <div>nitramsss</div>
+        <div><a href="#home">nitramsss</a></div>
         <div
           onClick={() => setIsClick(!isClick)}
           className="cursor-pointer sm:hidden hover:text-white focus:outline-none"

@@ -3,9 +3,9 @@ import { Timeline } from "../components/Timeline";
 
 const Experience = () => {
   return (
-    <div className="mx-auto max-w-full" id="experience">
+    <div className="mx-auto max-w-full bg-black/40 mask-t-from-90% mask-b-from-90%" id="experience">
   
-      <div>
+      <div className="mx-auto max-w-7xl">
         <Timeline data={myExperience} /> 
       </div>
     </div>

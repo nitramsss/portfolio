@@ -34,7 +34,7 @@ const Contact = () => {
             <input
               type="submit"
               value="Send"
-              className="cursor-pointer bg-indigo-500 shadow-lg shadow-indigo-500/50 px-8 py-1 text-lg font-bold rounded-lg"
+              className="cursor-pointer bg-indigo-500 hover:bg-indigo-400 shadow-lg shadow-indigo-500/50 px-8 py-1 text-lg font-bold rounded-lg"
             />
           </div>
         </form>

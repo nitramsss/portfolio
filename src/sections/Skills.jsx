@@ -2,7 +2,7 @@ import MarqueeFeature from "../components/Marquee";
 
 const Skills = () => {
   return (
-    <section className="container mx-auto pt-15 bg-black/40 mask-t-from-90% max-w-full" id="skills">
+    <section className="container mx-auto pt-15 bg-black/40 mask-t-from-90% mask-b-from-90% md:pb-5 max-w-full" id="skills">
       <div className="flex justify-center sm:mb-5">
         <h1 className="text-5xl mb-4 text-neutral-300 font-black hidden sm:flex">
           SKILLS
