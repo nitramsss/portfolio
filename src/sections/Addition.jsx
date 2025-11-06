@@ -11,7 +11,7 @@ const Addition = () => {
           loop
           autoPlay
         >
-          <source src="/assets/vids/basketball.mp4" type="video/mp4" />
+          <source src="./assets/vids/basketball.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -53,7 +53,7 @@ const Addition = () => {
           loop
           autoPlay
         >
-          <source src="/assets/vids/farm.mp4" type="video/mp4" />
+          <source src="./assets/vids/farm.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 

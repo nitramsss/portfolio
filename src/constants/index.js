@@ -4,7 +4,7 @@ export const myProjects = [
         title: "HealthyHito",
         description: "A meal generator platform that suggests meal to users utilizing button interface and gemini's reponse integrating Gemini API.",
         tags: ["HTML", "CSS", "Python", "Django", "GeminiAPI"],
-        img: "assets/projects/healthyhito.png",
+        img: "./assets/projects/healthyhito.png",
         github: "https://github.com/nitramsss/healthyhito-django"
     },
     {
@@ -12,7 +12,7 @@ export const myProjects = [
         title: "Crypto Daily Tracker",
         description: "Real-time cryptocurrency tracking application that provides daily price updates using CoinGecko API.",
         tags: ["ReactJS", "CoinGeckoAPI"],
-        img: "assets/projects/crtt.png",
+        img: "./assets/projects/crtt.png",
         github: "https://github.com/nitramsss/crtt"
     },
     {
@@ -20,7 +20,7 @@ export const myProjects = [
         title: "Nike Landing Page",
         description: "A modern, responsive landing page clone of Nike's website built with React and Tailwind CSS.",
         tags: ["ReactJS", "Tailwind CSS"],
-        img: "assets/projects/nike-landing-page.png",
+        img: "./assets/projects/nike-landing-page.png",
         github: "https://github.com/nitramsss/nike-landing-page"
     },
 ]
@@ -44,12 +44,12 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/nitramsss",
-    icon: "/assets/socials/github.png",
+    icon: "./assets/socials/github.png",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/fitz-m-3522322b4/",
-    icon: "/assets/socials/linkedin.png",
+    icon: "./assets/socials/linkedin.png",
   },
   
 ];

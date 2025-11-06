@@ -3,7 +3,7 @@ const Profile = () => {
   return (
     <div>
       <TiltedCard
-        imageSrc="assets/pro.jpg"
+        imageSrc="./assets/pro.jpg"
         altText="Fitzjaymar Jude Martin"
         captionText="nitramsss"
         containerHeight="450px"

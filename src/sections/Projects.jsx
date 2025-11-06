@@ -62,7 +62,7 @@ const Projects = () => {
               >
                 {selectedProject?.title}
                 <img
-                  src="assets/close.svg"
+                  src="./assets/close.svg"
                   className="backdrop-blur-sm cursor-pointer w-5 h-5 font-black"
                   onClick={close}
                 />
