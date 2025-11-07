@@ -11,7 +11,7 @@ const Links = () => {
         <a href="#projects">Projects</a>
       </li>
       <li className="nav-li cursor-pointer hover:text-white transition-all ease-in-out duration-300">
-        <a href="/assets/resume/resume.pdf" download="Martin, Fitz - Resume Latest">Resume</a>
+        <a href="./assets/resume/resume.pdf" download="Martin, Fitz - Resume Latest">Resume</a>
       </li>
       <li className="nav-li cursor-pointer hover:text-white transition-all ease-in-out duration-300">
         <a href="#contact">Contact</a>
